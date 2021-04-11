@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Drop |Inscription</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Drop est un site de e-commerce">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styled.css">
+    <script src="lib/jquery-3.6.0.js">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <form id="formvalidat">
+        <h3>Formulaire d'inscription</h3>
+        <br>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="form-outline mb-2">
+            <label class="form-label" for="formEx0">Civilité</label>&nbsp;&nbsp;&nbsp;
+            <select name="niv">
+                <option>Mlle</option>
+                <option>Mme</option>
+                <option>M.</option>
+            </select>
+        </div>
+        <div class="row mb-2">
+            <div class="col">
+                <div class="form-outline">
+                    <label class="form-label" for="formEx1">Nom</label>
+                    <input type="text" id="formEx1" class="form-control" name="nom" placeholder="Entrez votre nom" />
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-outline">
+                    <label class="form-label" for="formEx2">Prénom</label>
+                    <input type="text" id="formEx2" class="form-control" name="prenom" placeholder="Entrez votre prénom" />
+                </div>
+            </div>
+        </div>
+        <!--Adresse input-->
+        <div class="form-outline mb-2">
+            <label class="form-label" for="formEx3">Adresse</label>
+            <input type="text" id="formEx3" class="form-control" name="adresse" placeholder="exemple:BNI MAKADA NR 45 TANGER" />
+        </div>
+
+        <!--Telephon-->
+        <div class="form-outline mb-2">
+            <label class="form-label" for="formEx4">Téléphone</label>
+            <input type="text" id="formEx4" class="form-control" name="phone" placeholder="exemple: +212678234567" />
+        </div>
+        <!--Pays-->
+        <div class="form-outline mb-2">
+            <label class="form-label" for="formEx5">Pays</label>&nbsp;&nbsp;&nbsp;
+            <select name="niv">
+                <option>Maroc</option>
+                <option>Algérie </option>
+                <option>Égypte</option>
+                <option>Tunisie</option>
+                <option>Turquie</option>
+            </select>
+        </div>
+
+
+        <!-- Email input -->
+        <div class="form-outline mb-2">
+            <label class="form-label" for="formEx6">Email</label>
+            <input type="text" id="formEx6" class="form-control" name="email" placeholder="exemple@gmail.com" />
+        </div>
+
+        <!--Login input-->
+        <div class="form-outline mb-2">
+            <label class="form-label" for="formEx7">Login</label>
+            <input type="text" id="formEx7" class="form-control" name="login" placeholder="Entrez votre login" />
+        </div>
+
+        <!-- Password input -->
+        <div class="form-outline mb-2">
+            <label class="form-label" for="formEx8">Mot de passe</label>
+            <input type="password" id="formEx8" class="form-control" name="password" placeholder="Entrez votre mot de passe" />
+        </div>
+
+        <!--Confirm password-->
+        <div class="form-outline mb-2">
+            <label class="form-label" for="formEx9">Confirmer mot de passe</label>
+            <input type="password" id="formEx9" class="form-control" name="confpass" placeholder="Confirmez votre mot de passe" />
+        </div>
+
+
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-2">
+            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" checked />
+            <label class="form-check-label" for="form2Example3">
+            Je confirme avoir lu et compris les <a href="#">terms & conditions</a>
+          </label>
+        </div>
+
+        <!-- Submit button -->
+        <div class="d-grid col-3 mx-auto">
+            <button type="submit" class="btn btn-primary btn-block mb-4" id="button">S'inscrire</button>
+        </div>
+        <!-- Register buttons -->
+        <div class="text-center">
+            <p>ou s'inscrire avec :</p>
+            <button type="button" class="btn btn-primary btn-floating mx-1">
+            <i class="fa fa-facebook-f"></i>
+          </button>
+
+            <button type="button" class="btn btn-primary btn-floating mx-1">
+            <i class="fa fa-google"></i>
+          </button>
+
+            <button type="button" class="btn btn-primary btn-floating mx-1">
+            <i class="fa fa-twitter"></i>
+          </button>
+
+        </div>
+    </form>
+    <script src="regex.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
+
+</html>

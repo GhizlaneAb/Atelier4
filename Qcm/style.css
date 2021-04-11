@@ -1,0 +1,51 @@
+body {
+    background-image: url("img/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    padding: 15px;
+    width: 700px;
+    height: 90px;
+    margin-left: 350px;
+    text-align: center;
+    color: rgb(241, 214, 58);
+    border: 3px solid black;
+    border-bottom: 6px solid gold;
+    border-radius: 4px;
+    text-shadow: 4px 4px 4px black;
+    box-shadow: 3px 3px 6px black;
+}
+
+#quizform {
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 700px;
+    margin-left: 350px;
+    padding: 4px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 6px black;
+}
+
+.card {
+    max-width: 800px;
+    width: 60%;
+    margin: 0px auto;
+    padding: 6px;
+    text-align: left;
+}
+
+.d-grid {
+    background-color: rgb(233, 230, 36);
+    border-radius: 6px;
+    border-color: rgb(233, 230, 36);
+    color: black;
+    height: 45px;
+    text-shadow: 2px 2px 4px black;
+}
+
+ul {
+    list-style: none;
+}
